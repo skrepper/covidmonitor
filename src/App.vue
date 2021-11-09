@@ -1,6 +1,12 @@
 <template>
-  <Header />
+  <div id="app">
+    <Header/>
+    <router-view/>
+  </div>
 </template>
+
+<style>
+</style>
 
 <script>
 import Header from "@/components/Header";
@@ -10,5 +16,5 @@ export default {
     Header
   }
 }
-</script>
 
+</script>
